@@ -1,0 +1,59 @@
+.container2{
+    padding: 80px 100px;
+}
+.products-list{
+    display: flex;
+    gap: 49px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+}
+.products-image{
+    width: 200px;
+    height: 200px;
+    border-radius:20px;
+    padding: 10px;
+}
+.products-title{
+    font-family: 'Epilogue', sans-serif; 
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #000000;
+    max-width: 200px;
+    padding-left: 10px;
+}
+.products-price{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    padding: 0px 0px 10px 10px;
+
+}
+.anchor{
+    text-decoration: none;
+   color: black;
+}
+.products-box{
+    background-color: rgba(230, 230, 230, 0.537);
+    max-width: 220px;
+    border-radius:20px;
+}
+.fivestar{
+    width:90px;
+}
+.product-stars{
+    font-family: Satoshi;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+
+}
+.rating-box{
+    display: flex;
+    gap:15px;
+    padding: 5px 0px 8px 10px;
+}

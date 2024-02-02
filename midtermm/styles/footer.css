@@ -1,0 +1,149 @@
+.container {
+  width: 1240px;
+  margin: auto;
+  max-width: 100%;
+}
+body footer {
+  margin-top: 88px;
+  background: #F0F0F0;
+}
+body footer .container {
+  position: relative;
+}
+body footer .container .newsletter {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 20px;
+  padding: 36px 64px;
+}
+body footer .container .newsletter h2 {
+  font-family: epilogue;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+  font-weight: bolder;
+  color: white;
+  width: 550px;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+body footer .container .newsletter form {
+  width: 349px;
+  max-width: 100%;
+}
+body footer .container .newsletter form label {
+  position: relative;
+}
+body footer .container .newsletter form label .input-pl {
+  position: absolute;
+  display: flex;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+body footer .container .newsletter form label .input-pl p {
+  font-family: epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-left: 12px;
+}
+body footer .container .newsletter form label input {
+  padding: 12px 0 14px 0;
+  width: 100%;
+  display: block;
+  border-radius: 62px;
+}
+body footer .container .newsletter form button {
+  border: 0;
+  border-radius: 62px;
+  display: block;
+  width: 100%;
+  font-family: epilogue;
+  font-size: 16px;
+  padding: 12px 0;
+  margin-top: 14px;
+  font-weight: 500;
+  line-height: 22px;
+}
+body footer .container .footer-body {
+  display: flex;
+  padding-top: 140px;
+  gap: 113.5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1019607843);
+  padding-bottom: 50px;
+}
+body footer .container .footer-body .shop-co {
+  width: 250px;
+  max-width: 100%;
+}
+body footer .container .footer-body .shop-co h2 {
+  font-family: epilogue;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 40px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+body footer .container .footer-body .shop-co p {
+  font-family: epilogue;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 35px;
+}
+body footer .container .footer-body .shop-co .socials {
+  display: flex;
+  gap: 12px;
+}
+body footer .container .footer-body .lists {
+  display: flex;
+  gap: 113.5px;
+}
+body footer .container .footer-body .lists ul li {
+  padding-bottom: 20px;
+}
+body footer .container .footer-body .lists ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+body footer .container .footer-body .lists ul li:last-child {
+  padding: 0;
+}
+body footer .container .footer-body .lists ul:before {
+  content: attr(aria-label);
+  font-family: epilogue;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  padding-bottom: 26px;
+  line-height: 18px;
+}
+body footer .container .footer-foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0 60px 0;
+}
+body footer .container .footer-foot .rights p {
+  font-family: epilogue;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.6);
+}
+body footer .container .footer-foot .payments {
+  display: flex;
+}
+
+/*# sourceMappingURL=footer.css.map */
